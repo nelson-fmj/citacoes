@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/schemas/AccountingPlan_1_000.json#",
+	"$schema": "https://github.com/nelsonjuniorfm/citacoes/blob/master/AccountingPlan_1_000.json#",
 	"info": {
 		"description": "Documentação para plano de contas contábeis",
 		"version": "1.000",
