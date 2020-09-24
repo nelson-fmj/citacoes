@@ -140,7 +140,7 @@
 				},
 				"analytics": {
 					"description": "Analitica / Sintética",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
