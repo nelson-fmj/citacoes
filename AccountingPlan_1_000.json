@@ -58,6 +58,22 @@
 		"AccountingPlanInfo": {
 			"description": "Lista de Plano de Conta Contábil",
 			"properties": {
+				"id": {
+					"description": "Id do plano de contas contábil",
+					"type": "string",
+					"x-totvs": [
+						{
+							"product": "RM",
+							"field": "CCONTA.CODCOLIGADA | CCONTA.CODCONTA",
+							"required": false,
+							"type": "string",
+							"length": "",
+							"note": " O Id do plano de contas contábil é composto por coligada e codigo da conta",
+							"available": true,
+							"canUpdate": false
+						}
+					]
+				},
 				"companyId": {
 					"description": "Código da empresa/coligada",
 					"type": "integer",
@@ -85,22 +101,6 @@
 							"type": "varchar",
 							"length": "40",
 							"note": "Código da conta",
-							"available": true,
-							"canUpdate": false
-						}
-					]
-				},
-				"id": {
-					"description": "Id do plano de contas contábil",
-					"type": "string",
-					"x-totvs": [
-						{
-							"product": "RM",
-							"field": "CCONTA.CODCOLIGADA | CCONTA.CODCONTA",
-							"required": false,
-							"type": "string",
-							"length": "",
-							"note": " O Id do plano de contas contábil é composto por coligada e codigo da conta",
 							"available": true,
 							"canUpdate": false
 						}
