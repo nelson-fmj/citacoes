@@ -60,7 +60,7 @@
 			"properties": {
 				"companyId": {
 					"description": "Código da empresa/coligada",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
@@ -116,7 +116,7 @@
 							"required": false,
 							"type": "varchar",
 							"length": "20",
-							"note": "Reduzido",
+							"note": "Código Reduzido",
 							"available": true,
 							"canUpdate": false
 						}
@@ -132,7 +132,7 @@
 							"required": true,
 							"type": "varchar",
 							"length": "40",
-							"note": "Descrição",
+							"note": "Descrição do plano de contas",
 							"available": true,
 							"canUpdate": true
 						}
@@ -148,7 +148,7 @@
 							"required": true,
 							"type": "integer",
 							"length": "",
-							"note": "Analitica / Sintética",
+							"note": " 0 - Sintética / 1 - Analitica",
 							"available": true,
 							"canUpdate": false
 						}
@@ -156,7 +156,7 @@
 				},
 				"nature": {
 					"description": "Natureza",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
@@ -172,7 +172,7 @@
 				},
 				"apportionment": {
 					"description": "Rateio",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
@@ -188,7 +188,7 @@
 				},
 				"inactive": {
 					"description": "Inativa",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
@@ -220,7 +220,7 @@
 				},
 				"correctionType": {
 					"description": "Tipo de correção",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
@@ -348,7 +348,7 @@
 				},
 				"chargebackAffiliateCode": {
 					"description": "Código da coligada do estorno",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
@@ -380,7 +380,7 @@
 				},
 				"accountType": {
 					"description": "Tipo de conta",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
@@ -413,7 +413,7 @@
 			},
 			"historyAffiliateCode": {
 					"description": "Código da coligada do histórico",
-					"type": "string",
+					"type": "integer",
 					"x-totvs": [
 						{
 							"product": "RM",
